@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+/* Mikes CSS*/
+.third {
+width:270px;
+}
+
+.ui-combobox {
+position:relative;
+display:inline-block;
+}
+
+.ui-combobox-toggle {
+position:absolute;
+bottom:0;
+margin-left:-1px;
+height:1.7em;
+top:.1em;
+padding:0;
+}
+
+.ui-combobox-input {
+margin:0;
+padding:.3em;
+}
+
+label,input {
+display:block;
+}
+
+input.text {
+margin-bottom:12px;
+width:95%;
+font-size:11px!important;
+padding:.4em;
+}
+
+fieldset {
+border:0;
+margin-top:25px;
+padding:0;
+}
+
+h1 {
+font-size:1.2em;
+margin:.6em 0;
+}
+
+.validateTips {
+border:1px solid transparent;
+padding:.3em;
+}
+
+p {
+margin-top:0!important;
+margin-bottom:0!important;
+font-size:11px!important;
+}
+
+form {
+margin-top:5px;
+}
+
+ui-tabs .ui-tabs-panel {
+display:block;
+background:none;
+border-width:0;
+padding:.5em!important;
+}
+
+.dataTables_filter {
+display:none!important;
+}
+
+label,select,input[type=button],input[type=text] {
+font-size:11px!important;
+}
+.alertBox{
+width:300px; 
+background-color:#FEF2BF; 
+border:solid 1pt grey; 
+border-radius:7px;
+cursor:pointer;
+padding:5px	
+}
+.alertBoxError{
+width:300px; 
+background-color:#e28888; 
+border:solid 1pt grey; 
+border-radius:7px;
+cursor:pointer;
+padding:5px	
+}

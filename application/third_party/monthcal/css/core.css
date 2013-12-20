@@ -1,0 +1,34 @@
+﻿body 
+{
+	
+}
+
+a { font-size:11px; }
+        
+#jMonthCalendar { position:relative; z-index:0; height: auto !important; top: 120px}
+.MonthlyCalendar .MonthNavigation { border-bottom:solid 1px #ddd; clear:both; height:20px; padding:5px 10px 0 10px; }
+.MonthlyCalendar .MonthNavPrev, .MonthlyCalendar .MonthNavNext, .MonthlyCalendar .TodayLink, .MonthlyCalendar .WeekLink { width:7%; float:left; }
+.MonthlyCalendar .YearNavNext, .MonthlyCalendar .YearNavPrev { width:10%; float:right; }
+.MonthlyCalendar .MonthName { width:50%; text-align:center; font-weight:bold; float:left; }
+
+
+.MonthlyCalendar { height:100%; width:100%; border:solid 1px #ddd; border-collapse:collapse; top:-100px}
+.MonthlyCalendar #CalendarHead { width:100%; background:#F7F7F7 none repeat scroll 0 0; }
+.MonthlyCalendar #CalendarHead .DateHeader { width:14%; text-align:center; }
+
+.MonthlyCalendar #CalendarBody { }
+.DateBox { vertical-align:top; border:solid 1px #ddd; max-height: 150px ;  overflow-y:hidden}
+.DateLabel { height:16px; width:100%; background:#F7F7F7 none repeat scroll 0 0; text-align:right; }
+.DateLabel a { cursor:pointer; padding:0 5px 2px; text-decoration:none; line-height:16px; }
+
+#CalendarBody .Inactive, #CalendarBody .Weekend { background:#fafafa none repeat scroll 0 0; }
+.Today { background:#A9DFFF none repeat scroll 0 0; }
+
+#jMonthCalendar .Event  { font-size:12px; padding:4px; background-color:#C0D0FF; margin-bottom:1px; -moz-border-radius:2 8px 8px 8px;  cursor:pointer; display:block; }
+.RFH {border-radius:6px 6px 6px 6px; border:solid 2px #0B20DE;}
+.ELP {border-radius:6px 6px 6px 6px; border:solid 2px #961E1E;}
+
+#jMonthCalendar .Event { font-size:12px; padding:4px; background-color:#C0D0FF; margin-bottom:1px; -moz-border-radius:2 8px 8px 8px; cursor:pointer; display:block; }
+.Event a { text-decoration:none; }
+.Event a:hover { text-decoration:underline; }
+

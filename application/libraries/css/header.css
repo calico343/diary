@@ -1,0 +1,135 @@
+    #Calendars
+    
+    {
+    
+    	display				: none;
+    
+    	position			: absolute;
+    
+    	z-index				: 999;	
+    
+    }
+    
+    
+    
+    #Reports
+    
+    {
+    
+    	display				: none;
+    
+    	position			: absolute;
+    
+    	z-index				: 999;
+    
+    	
+    
+    }
+    
+    #Administration
+    
+    {
+    
+    	display				: none;
+    
+    	position			: absolute;
+    
+    	z-index				: 999;
+    
+    	
+    
+    }
+    
+    #Patients
+    
+    {
+    
+    	display				: none;
+    
+    	position			: absolute;
+    
+    	z-index				: 999;
+    
+    	
+    
+    }
+    
+    
+    
+    .vli
+    
+    {
+    
+    	width				: 150px;
+    
+    	float				: left;
+    
+    	clear				: left;
+    
+    }
+    
+    
+    
+    .button {
+    
+    width : 170px;
+    
+       border-top: 1px solid #8c9194;
+    
+       background: #003d5c;
+    
+       background: -webkit-gradient(linear, left top, left bottom, from(#168bde), to(#003d5c));
+    
+       background: -webkit-linear-gradient(top, #168bde, #003d5c);
+    
+       background: -moz-linear-gradient(top, #168bde, #003d5c);
+    
+       background: -ms-linear-gradient(top, #168bde, #003d5c);
+    
+       background: -o-linear-gradient(top, #168bde, #003d5c);
+    
+       padding: 14px 28px;
+    
+       -webkit-border-radius: 11px;
+    
+       -moz-border-radius: 11px;
+    
+       border-radius: 11px;
+    
+       -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    
+       -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    
+       box-shadow: rgba(0,0,0,1) 0 1px 0;
+    
+       text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    
+       color: #ffffff;
+    
+       font-size: 15px;
+    
+       font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+    
+       text-decoration: none;
+    
+       vertical-align: middle;
+    
+       }
+    
+    .button:hover {
+    
+       border-top-color: #14364d;
+    
+       background: #14364d;
+    
+       color: #ffffff;
+    
+       }
+    
+    .button:active {
+    
+       border-top-color: #1b435e;
+    
+       background: #1b435e;
+    
+       }
