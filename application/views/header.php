@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>CancerKin Control Panel</title>
+<title>Diary Control Panel</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>application/libraries/templates/css/reset.css" /> 
-<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>application/libraries/templates/css/main.css" />
-<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>application/libraries/templates/css/2col.css" title="2col" />
-<link rel="alternate stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>application/libraries/templates/css/1col.css" title="1col" />
-<!--[if lte IE 6]><link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>application/libraries/templates/css/main-ie6.css" /><![endif]-->
-<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>application/libraries/templates/css/style.css" />
-<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>application/libraries/templates/css/mystyle.css" />
+<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>assets/templates/css/reset.css" /> 
+<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>assets/templates/css/main.css" />
+<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>assets/templates/css/2col.css" title="2col" />
+<link rel="alternate stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>assets/templates/css/1col.css" title="1col" />
+<!--[if lte IE 6]><link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>assets/templates/css/main-ie6.css" /><![endif]-->
+<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>assets/templates/css/style.css" />
+<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>assets/templates/css/mystyle.css" />
 <link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>assets/css/menu.css" />
-<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>application/libraries/templates/css/validationEngine.jquery.css" />
+<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>assets/templates/css/validationEngine.jquery.css" />
 
 <!--
 
 
 
-<script type="text/javascript" src="<?php echo base_url();?>application/libraries/templates/js/jquery.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/templates/js/jquery.js"></script>
 
 
 
@@ -33,19 +33,19 @@
 
 
 
-<script type="text/javascript" src="<?php echo base_url();?>application/libraries/templates/js/switcher.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/templates/js/switcher.js"></script>
 
 
 
-<script type="text/javascript" src="<?php echo base_url();?>application/libraries/templates/js/toggle.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/templates/js/toggle.js"></script>
 
 
 
-<script type="text/javascript" src="<?php echo base_url();?>application/libraries/templates/js/ui.core.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/templates/js/ui.core.js"></script>
 
 
 
-<script type="text/javascript" src="<?php echo base_url();?>application/libraries/templates/js/ui.tabs.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/templates/js/ui.tabs.js"></script>
 
 <script type="text/javascript">
 
@@ -145,7 +145,7 @@ $(document).ready(function()
 	<div class="header">
   	<div class="padding box">
         <!-- Logo (Max. width = 200px) 
-        <p id="logo"><a href="http://www.free-css.com/"><img src="<?php //echo base_url(); ?>application/libraries/images/logo.jpg" alt="" /></a></p>
+        <p id="logo"><a href="http://www.free-css.com/"><img src="<?php //echo base_url(); ?>assets/images/logo.jpg" alt="" /></a></p>
         <!-- Search 
         <form action="http://www.free-css.com/" method="get" id="search">
           <fieldset>
@@ -181,9 +181,9 @@ $(document).ready(function()
         <p id="btn-create" class="box"><a href='<?php echo base_url(); ?>index.php/admin/logout/'><span><strong><?php isset($_SESSION['username']) ? $text = "Log Out" : $text = "Log In";  echo $text ; ?> &raquo;</strong></span></a></p>
       </div>
     <div class="header_middle">
-    	<div class="header_middle_inner"><img src="<?php echo base_url(); ?>application/libraries/templates/images/nhs_logo.gif" /></div>
+    	<div class="header_middle_inner"><a href="http://www.spinhalf.com/" style='float:left;'><img src="<?php echo base_url(); ?>assets/images/logo_design_2.jpg" alt="" style = 'max-height: 100px'/></a></div>
     </div>
-    <div class="header_logo"><a href="http://www.cancerkin.org.uk/" style='float:left;'><img src="<?php echo base_url(); ?>application/libraries/templates/images/logo_header.jpg" alt="" title = 'Go to Cancerkin Website' /></a></div>
+    <div class="header_logo"></div>
   </div>
   	<div class="header-1">
   	<div class="header-1_right">

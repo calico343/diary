@@ -126,7 +126,7 @@ class Admin_model extends CI_Model
 		return $res;
 	} 
 
-	public function verify_user($username, $password, $app = null)
+	public function verify_user_arc($username, $password, $app = null)
 	{
 		$q = $this
             ->db

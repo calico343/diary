@@ -3,21 +3,22 @@
 <head>
 <title><?php echo $title; ?></title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>application/libraries/templates/css/reset.css" />
-<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>application/libraries/templates/css/main.css" />
-<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>application/libraries/templates/css/2col.css" title="2col" />
-<link rel="alternate stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>application/libraries/templates/css/1col.css" title="1col" />
-<!--[if lte IE 6]><link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>application/libraries/templates/css/main-ie6.css" /><![endif]-->
-<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>application/libraries/templates/css/style.css" />
-<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>application/libraries/templates/css/mystyle.css" />
-<script type="text/javascript" src="<?php echo base_url();?>application/libraries/templates/js/jquery.js"></script>
-<script type="text/javascript" src="<?php echo base_url();?>application/libraries/templates/js/switcher.js"></script>
-<script type="text/javascript" src="<?php echo base_url();?>application/libraries/templates/js/toggle.js"></script>
-<script type="text/javascript" src="<?php echo base_url();?>application/libraries/templates/js/ui.core.js"></script>
-<script type="text/javascript" src="<?php echo base_url();?>application/libraries/templates/js/ui.tabs.js"></script>
+<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>assets/templates/css/reset.css" />
+<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>assets/templates/css/main.css" />
+<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>assets/templates/css/2col.css" title="2col" />
+<link rel="alternate stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>assets/templates/css/1col.css" title="1col" />
+<!--[if lte IE 6]><link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>assets/templates/css/main-ie6.css" /><![endif]-->
+<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>assets/templates/css/style.css" />
+<link rel="stylesheet" media="screen,projection" type="text/css" href="<?php echo base_url();?>assets/templates/css/mystyle.css" />
+<script type="text/javascript" src="<?php echo base_url();?>assets/templates/js/jquery.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/templates/js/switcher.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/templates/js/toggle.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/templates/js/ui.core.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/templates/js/ui.tabs.js"></script>
 
 <script type="text/javascript">
-$(document).ready(function(){
+$(document).ready(function()
+{
 	$(".tabs > ul").tabs();
 });
 </script>
@@ -59,7 +60,7 @@ input
 
 	<div class = 'container' >
     	<div class = 'logo'>
-                    <img src="<?php echo base_url(); ?>application/libraries/templates/images/logo_login.jpg"  alt="" title = 'Go to Cancerkin Website' />
+                    <img src="<?php echo base_url(); ?>assets/templates/images/logo_login.jpg"  alt="" title = 'Go to Cancerkin Website' />
                 </div>
 		<div class="container_inner">
                 

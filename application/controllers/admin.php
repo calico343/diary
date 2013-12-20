@@ -6,11 +6,14 @@ class Admin extends CI_Controller
 	{
 		session_start();
 		parent::__construct();
-		//$this->output->enable_profiler(TRUE);
+		$this->load->model('admin_model');
+		$this->output->enable_profiler(TRUE);
 	}
 
 	public function index()
 	{
+		ini_set('display_errors', true);
+		error_reporting(E_ALL);
 		if ( isset($_SESSION['username']) ) 
 		{
 			redirect('mycal/display');
@@ -23,7 +26,7 @@ class Admin extends CI_Controller
 		if ( $this->form_validation->run() !== false ) 
 		{
 			//then validation passed. Get from db
-			$this->load->model('admin_model');
+			
 			$res = $this
                   ->admin_model
                   ->verify_user(
@@ -47,12 +50,11 @@ class Admin extends CI_Controller
 			}
 		}
 		$this->load->view('login_view');
+		
 	}
 	
 	public function register()
-	{
-		//$this->output->enable_profiler(true);
-		$this->load->model('admin_model');
+	{	
 		$email			= $this->input->get_post('email');
 		$fname			= $this->input->get_post('fname');
 		$lname			= $this->input->get_post('lname');
@@ -135,8 +137,6 @@ class Admin extends CI_Controller
 	
 	public function mobileLogin()
 	{
-		//$this->output->enable_profiler(TRUE);
-		$this->load->model('admin_model');
 		if($this->input->post('username'))
 		{
 			$username		= $this->input->post('username'); 
@@ -166,7 +166,6 @@ class Admin extends CI_Controller
 	
 	public function mobileLogout()
 	{
-		$this->load->model('admin_model');
 		$token			= $this->input->post('token');
 		$res 			= $this->admin_model->mobileLogout($token);
 		
