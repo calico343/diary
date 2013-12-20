@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://avocet.spinhalf.com/';
+$config['base_url']	= 'http://diary.spinhalf.com/';
 
 /*
 |--------------------------------------------------------------------------

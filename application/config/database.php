@@ -49,12 +49,12 @@ $active_group 				= 'default';
 $active_record 				= TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'spinhalf_ci';
-$db['default']['password'] = 'iPJ2TG5Xqmub';
-$db['default']['database'] = 'spinhalf_avocet';
+$db['default']['username'] = 'zappleco_diary';
+$db['default']['password'] = '#gNof{T7Oe;~';
+$db['default']['database'] = 'zappleco_diary';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
-$db['default']['pconnect'] = TRUE;
+$db['default']['pconnect'] = false;
 $db['default']['db_debug'] = TRUE;
 $db['default']['cache_on'] = FALSE;
 $db['default']['cachedir'] = '';
