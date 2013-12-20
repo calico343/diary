@@ -1,0 +1,7 @@
+RewriteEngine on
+
+#Allow these urls to be accessed
+RewriteRule ^assets/(.*)$ /application/assets/$1 [L]
+RewriteCond $1 !^(index\.php|public|assets|user_guide|css|js|images|forum|press|robots\.txt|favico\.ico)
+RewriteRule ^(.*)$ /index.php?/$1 [L] 
+
